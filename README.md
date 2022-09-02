@@ -1,1 +1,5 @@
-# i3wm-config-dracula
+<div align="center">
+
+![Desktop](.images/main.png)
+
+</div>
