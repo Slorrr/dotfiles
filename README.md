@@ -1,5 +1,5 @@
 <div align="center">
 
-![Desktop](.images/main.png)
+![Desktop](images/main.png)
 
 </div>
