@@ -217,7 +217,8 @@ command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.org
 " Add (Neo)Vim's native statusline support.
 " NOTE: Please see `:h coc-status` for integrations with external plugins that
 " provide custom statusline: lightline.vim, vim-airline.
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+"
+""""""""""set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 " Mappings for CoCList
 " Show all diagnostics.
@@ -242,5 +243,4 @@ set iminsert=0 " Чтобы при старте ввод был на англи�
 set imsearch=0 " Чтобы при старте поиск был на английском, а не русском (start > /)
 " Дополнительно можно добавить:
 "inoremap <C-l> <C-^> " Чтобы вместо Ctrl-^ нажимать Ctrl-L
-highlight lCursor guifg=NONE guibg=Cyan " Смена цвета курсора
-
+highlight lCursor guifg=NONE guibg=Cyan 
