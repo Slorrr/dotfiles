@@ -9,12 +9,17 @@ vim.keymap.set("n", "<leader>n", function()
 end)
 
 vim.cmd[[ 
-nnoremap <C-h> <C-W><C-H>
-nnoremap <C-l> <C-W><C-L>
+nnoremap <silent><C-h> <C-W><C-H>
+nnoremap <silent><C-l> <C-W><C-L>
 ]]
 
 vim.cmd[[ 
-nnoremap <C-]> :BufferLineCyclePrev<CR>
-nnoremap <C-[> :BufferLineCycleNext<CR>
+nnoremap <silent><C-[> :BufferLineCyclePrev<CR>
+nnoremap <silent><C-]> :BufferLineCycleNext<CR>
 ]]
+
+vim.keymap.set("n", "<leader>v", function()
+    vim.cmd("vsplit")
+end)
+
 
