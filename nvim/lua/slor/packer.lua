@@ -61,6 +61,6 @@ return require('packer').startup(function(use)
   }
 
   use {'chrisbra/vim-commentary'}
-  use {'majutsushi/tagbar'}
+  --use {'majutsushi/tagbar'}
 
 end)
