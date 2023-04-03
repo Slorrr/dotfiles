@@ -1,10 +1,10 @@
 vim.g.mapleader = " "
 
-vim.keymap.set("n", "<leader>b", function()
+vim.keymap.set("n", "<leader>n", function()
     vim.cmd("NERDTree")
 end)
 
-vim.keymap.set("n", "<leader>n", function()
+vim.keymap.set("n", "<leader>m", function()
     vim.cmd("NERDTreeClose")
 end)
 

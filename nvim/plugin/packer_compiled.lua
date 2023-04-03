@@ -120,6 +120,11 @@ _G.packer_plugins = {
     path = "/home/slor/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["hop.nvim"] = {
+    loaded = true,
+    path = "/home/slor/.local/share/nvim/site/pack/packer/start/hop.nvim",
+    url = "https://github.com/phaazon/hop.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/slor/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -196,6 +201,11 @@ _G.packer_plugins = {
     path = "/home/slor/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
   },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/home/slor/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/chrisbra/vim-commentary"
+  },
   ["vim-devicons"] = {
     loaded = true,
     path = "/home/slor/.local/share/nvim/site/pack/packer/start/vim-devicons",
@@ -204,14 +214,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: catppuccin
-time([[Config for catppuccin]], true)
-try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\27colorscheme catppuccin\bcmd\bvim\0", "config", "catppuccin")
-time([[Config for catppuccin]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time([[Config for nvim-autopairs]], false)
+-- Config for: catppuccin
+time([[Config for catppuccin]], true)
+try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\27colorscheme catppuccin\bcmd\bvim\0", "config", "catppuccin")
+time([[Config for catppuccin]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

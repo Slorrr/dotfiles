@@ -7,6 +7,8 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  use 'phaazon/hop.nvim'
+
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
 

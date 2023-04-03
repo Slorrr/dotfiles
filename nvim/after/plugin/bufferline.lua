@@ -8,7 +8,7 @@ require('bufferline').setup {
     max_name_length = 30,
     max_prefix_length = 15,
     tab_size = 21,
-    diagnostics = "nvim_lsp",
+    --diagnostics = "nvim_lsp",
     diagnostics_update_in_insert = false,
     show_buffer_icons = true,
     show_buffer_close_icons = true,
@@ -21,3 +21,4 @@ require('bufferline').setup {
     sort_by = 'id',
   },
 }
+

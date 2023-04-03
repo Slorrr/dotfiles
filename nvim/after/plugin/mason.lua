@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-    ensure_installed = { "tsserver", "tailwindcss", "omnisharp"}
+    ensure_installed = {"omnisharp"}
 })
 
 require'lspconfig'.omnisharp.setup{
