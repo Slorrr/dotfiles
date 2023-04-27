@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-
 vim.keymap.set("n", "<leader>n", function()
     vim.cmd("NERDTree")
 end)
@@ -37,5 +36,13 @@ vim.keymap.set("n", "<A-]>", function()
     vim.cmd(":BufferLineCycleNext")
 end)
 
-vim.keymap.set("n", "<esc>", function()
+vim.keymap.set("n", "<leader>h", function()
+    vim.cmd(":HopChar1")
 end)
+
+
+
+--vim.keymap.set("n", "<esc>", function()
+--end)
+
+
