@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-    ensure_installed = {"omnisharp"}
+    ensure_installed = {}
 })
 
 require'lspconfig'.omnisharp.setup{
