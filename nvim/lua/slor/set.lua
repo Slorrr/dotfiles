@@ -12,6 +12,10 @@ vim.opt.scrolloff=3
 vim.cmd[[
 " air-line
 let g:airline_powerline_fonts = 1
+let g:airline_theme='catppuccin'
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
